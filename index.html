@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
 </head>
 <body>
     <div class="bg-container">
@@ -18,7 +19,12 @@
             <div class="profile">
                 <img  class="profile-pic" src="./assets/images/user.png" height="40px" width="40px" alt="">
                 <img  class="profile-new" src="./assets/images/chat-bubble.png" height="20px" width="20px" alt="">
-                <img  class="profile-option" src="./assets/images/ellipsis.png" height="20px" width="20px" alt="">
+                <img id="profile-option" class="profile-option" src="./assets/images/ellipsis.png" height="20px" width="20px" alt="">
+                <div class="dropdown-option-content" id='profile-option-dropdown'>
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
             </div>
             <div class="set-notif">
                 <h4>Whatsapp Web UI </h4>
@@ -130,8 +136,8 @@
             <div class="open-chat-bar d-flex">
                 <img  class='open-chat-profile-pic' src="./assets/images/user.png" height="40px" width="40px" alt="">
                     <div class="open-chat-header">
-                        <h5 class="open-chat-name">Hello Namaste</h5>
-                        <p class="open-chat-people">any,body,can,dance</p>
+                        <h5 class="open-chat-name">Rachel Green</h5>
+                        <p class="open-chat-people">online</p>
                     </div>
                 <img class="open-chat-search-option" src="./assets/images/loupe.png" height="20px" width="20px" alt="">
                 <img class='open-chat-more-option' src="./assets/images/ellipsis.png" height="20px" width="20px" alt="">
@@ -150,8 +156,9 @@
 
 
 
-
+    <script src="./assets/js/popper.js"></script>
     <script src="./assets/js/jquery.min.js"></script>
     <script src="./assets/js/bootstrap.js"></script>
+    <script src="./assets/js/app.js"></script>
 </body>
 </html>

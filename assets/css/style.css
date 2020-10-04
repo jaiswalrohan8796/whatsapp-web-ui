@@ -44,23 +44,42 @@ body {
 .profile .profile-new {
     position: absolute;
     right: 60px;
-    top: 20px;
+    top: 20px;  
 }
+
 .profile .profile-option {
     position: absolute;
     right: 10px;
     top: 20px;
 }
+.dropdown-option-content {
+    position: absolute;
+    right: 0px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+.dropdown-option-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-option-content a:hover 
+  {background-color: #f1f1f1;
+}
 
 
 .set-notif {
-    height: 120px;
+    height: 80px;
     background-color: rgb(98, 198, 255);
     color: #ffffff;
     font-weight: 900;
 }
 .set-notif h4 {
-    padding: 45px 78px;
+    padding: 26px 78px;
 }
 .search {
     height: 50px;
@@ -75,13 +94,11 @@ body {
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
 }
-.search-box img {
-    position: absolute;
-    left: 10px;
-    top: 5px;
+.search-box-icon {
+    margin-left: 15px;
 }
 .search-box-input {
-    margin-left: 35px;
+    margin-left: 0px;
     padding-left: 22px;
     border: none;
     border-radius: 13px;
@@ -146,20 +163,22 @@ body {
 }
 .open-chat-header {
     padding: 10px;
-    padding-left: 4px;
+    padding-left: 6px;
 }
 .open-chat-name {
     margin: 0px;
-}
+    font-size: 1.05rem;
+} 
+
 .open-chat-people {
     margin: 0px;
-    font-size: 300;
+    font-size: 14px;
     color: grey;
 }
 .open-chat-search-option {
     position: absolute;
     top: 20px;
-    right: 56px;
+    right: 62px;
 }
 
 .open-chat-more-option {
